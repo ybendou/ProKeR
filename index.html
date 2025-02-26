@@ -94,27 +94,21 @@
   </div>
 </section>
 
-<!--section class="section">
-  <div class="container is-max-desktop">
-    
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <figure class="image-container">
-          <img src="./static/proker_pipeline.png" alt="Description of the image">
-          <figcaption class="image-caption">
-            Overview of our training-free method ProKeR. While Tip-Adapter builds a key-value cache model using the few-shot samples,
-            ProKeR incorporates a proximal global regularization based on the zero-shot predictor in a reproducing kernel Hilbert space (RKHS). This
-            allows the use of a richer model without overfitting on the few-shot data.
-          </figcaption>
-        </figure>
-      </div>
-    </div>
 
-    <!-- Abstract Section -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text
+<div class="image-row">
+  <figure class="image-container">
+    <img src="./static/images/proker_plot.png" alt="Description of image 1" class="side-image" style="width: 600px; height: 300px;">
+    <figcaption class="image-caption">Fitting comparison between different methods on synthetically generated data, illustrating Nadaraya-Watson (Tip-Adapter) bias mitigation via our proposed Local Linear Regression (LLR) and our final method ProKeR.
+    </figcaption>
+  </figure>
+  
+  <figure class="image-container">
+    <img src="./static/images/performance.png" alt="Description of image 2" class="side-image">
+    <figcaption class="image-caption">Average performance for different methods on 11 image classification datasets.</figcaption>
+  </figure>
+</div>
+
+
 
 
   
@@ -143,20 +137,38 @@
   </div>
 </section>
         <br/>
-
-<!--section class="section">
+<!-- 
+<section class="section">
   <div class="container is-max-desktop">
         <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <figure class="image-container">
-          <img src="./static/proker_plot.png" alt="Description of the image">
+          <img src="./static/images/proker_plot.png" alt="Description of the image" class="small-image">
           <figcaption class="image-caption">
             Fitting comparison between different methods on synthetically generated data, illustrating Nadaraya-Watson (Tip-Adapter) bias mitigation via our proposed Local Linear Regression (LLR) and our final method ProKeR.
           </figcaption>
         </figure>
       </div>
-    </div>
-<!-- Section -->
+    </div> -->
+
+
+    <section class="section">
+      <div class="container is-max-desktop">    
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <figure class="large-image">
+              <img src="./static/images/proker_pipeline.png" alt="Description of the image">
+              <figcaption class="image-caption-large">
+                Overview of our training-free method ProKeR. While Tip-Adapter builds a key-value cache model using the few-shot samples,
+                ProKeR incorporates a proximal global regularization based on the zero-shot predictor in a reproducing kernel Hilbert space (RKHS). This
+                allows the use of a richer model without overfitting on the few-shot data.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+    
+
+
 
 <footer class="footer">
   <div class="container">

@@ -155,3 +155,54 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+.image-row {
+  display: flex; /* Aligns images in a row */
+  justify-content: center; /* Centers the figures */
+  gap: 0px; /* Adds space between images */
+  flex-wrap: wrap; /* Ensures responsiveness (stacks on small screens) */
+  align-items: center; /* Aligns images vertically in the middle */
+  text-align: center; /* Centers text inside */
+}
+
+.image-container {
+  text-align: center;
+  max-width: 50%; /* Ensures images don't take up too much space */
+}
+
+.side-image {
+  width: 100%; /* Makes sure the image fills its container */
+  max-width: 500px; /* Adjusts the image size */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Proper alignment */
+  margin: 0 auto; /* Centers the image */
+}
+
+.image-caption {
+  font-size: 14px;
+  color: gray;
+  margin-top: 5px;
+  font-style: italic;
+  text-align: left;
+  max-width: 100%; /* Ensures caption is not wider than the image */
+  word-wrap: break-word; /* Wraps long words */
+}
+
+
+.large-image {
+  width: 100%; /* Adjust percentage to make it smaller */
+  max-width: 1000px; /* Set a max width to prevent it from being too large */
+  height: auto; /* Keep aspect ratio */
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
+
+.image-caption-large {
+  font-size: 14px;
+  color: gray;
+  margin-top: 5px;
+  font-style: italic;
+  text-align: left;
+  max-width: 100%; /* Ensures caption is not wider than the image */
+  word-wrap: break-word; /* Wraps long words */
+}
